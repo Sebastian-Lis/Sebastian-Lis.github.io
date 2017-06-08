@@ -1,7 +1,31 @@
+.one::before {
+  content: "1.";
+  color: #ff6b83;
+  top: 0;
+}
+
+.two::before {
+  content: "2.";
+  color: pink;
+  top: 0;
+}
+
+.three::before {
+  content: "3.";
+  color: pink;
+  top: 0;
+}
+
+.background-number::before {
+  position: absolute;
+  font-size: 247px;
+  z-index: -1;
+}
+
 textarea {
-  border: 1px, solid;
+  border: 2px solid;
   border-color: #5F2586;
-  width: 500px;
+  width: 100%;
   height: 30px;
   margin-bottom: 30px;
 }
@@ -17,7 +41,7 @@ input {
   border-right: 0;
   border-bottom: 2px solid;
   border-color: #5F2586;
-  width: 500px;
+  width: 100%;
   height: 30px;
   margin-bottom: 30px;
 }
@@ -110,7 +134,8 @@ input {
   color: #5F2586;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 1.5;
+  letter-spacing: 1px; 
 }
 
 .strategy {
@@ -120,7 +145,7 @@ input {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
-  padding: 0;
+  padding: -50px;
 }
 
 ul {
@@ -169,7 +194,8 @@ nav {
   color: #5F2586;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  letter-spacing: 3px;
+  letter-spacing: 3.6px;
+  position: relative;
 }
 
 h1 {
