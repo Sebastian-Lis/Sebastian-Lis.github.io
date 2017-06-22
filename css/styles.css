@@ -97,6 +97,7 @@ input {
   background-attachment: fixed;
   text-align: center;
   background-repeat: no-repeat;
+  background-size: cover;
   text-align: center;
   display: block;
 }
