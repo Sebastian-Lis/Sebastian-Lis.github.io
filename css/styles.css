@@ -1,3 +1,7 @@
+a:hover {
+  background-color: #5F2586;
+}
+
 .one::before {
   content: "1.";
   color: #ff6b83;
@@ -44,6 +48,28 @@ input {
   width: 100%;
   height: 30px;
   margin-bottom: 30px;
+}
+
+.margin {
+  margin-top: 40px;
+}
+
+.fala1 {
+  position: absolute;
+  right: 0;
+  bottom: -30px;
+  width: 35%;
+}
+
+.fala2 {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  width: 20%;
+}
+
+.head {
+  position: relative;
 }
 
 .img {
